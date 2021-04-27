@@ -4,7 +4,7 @@ import TodoInsert from './components/TodoInsert';
 import TodoList from './components/TodoList';
 
 const App = () => {
-  const [todos, setTodos] = us_eState([
+  const [todos, setTodos] = useState([
     {
       id: 1,
       text: '리액트의 기초 알아보기',
